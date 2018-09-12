@@ -17,7 +17,12 @@
   ----------  
 
   1、vue.js是什么<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue是一套用于构建用户界面的渐进式框架<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue被被设计为可以自底向上逐层引用<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合
+  
   2、起步<br>
+  
   3、声明与循环<br>
   4、处理用户输入<br>
   5、组件化应用构建<br>
