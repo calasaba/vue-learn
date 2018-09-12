@@ -6,9 +6,9 @@
 ---------------
 （1）、给chrome安装了 Vue Devtools<br>
 （2）、vue的引入<br>
-       &nbsp;&nbsp;  1、直接用 <script> 引入，有开发版本和生产版本，新手用开发版本<br>
-       &nbsp;&nbsp;  2、用cdn引入，具体命令 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script><br>
-       &nbsp;&nbsp;  3、用NPM安装 npm install vue<br>
+       &nbsp;&nbsp;&nbsp;&nbsp; 1、直接用 <script> 引入，有开发版本和生产版本，新手用开发版本<br>
+       &nbsp;&nbsp;&nbsp;&nbsp; 2、用cdn引入，具体命令 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script><br>
+       &nbsp;&nbsp;&nbsp;&nbsp; 3、用NPM安装 npm install vue<br>
 （3）、命令行工具（cli）<br>
        &nbsp;&nbsp;  暂时用不到，不清楚他的牛逼之处<br>
 （4）、对不同构建版本的解释：这是不是很清楚，以后用的多了，可能会比较清楚<br>
