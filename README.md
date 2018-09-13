@@ -6,23 +6,21 @@
 ---------------
 （1）、给chrome安装了 Vue Devtools<br>
 （2）、vue的引入<br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1、直接用 <script> 引入，有开发版本和生产版本，新手用开发版本<br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2、用cdn引入，具体命令 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script><br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3、用NPM安装 npm install vue<br>
+      1、直接用 <script> 引入，有开发版本和生产版本，新手用开发版本<br>
+      2、用cdn引入，具体命令 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script><br>
+      3、用NPM安装 npm install vue<br>
 （3）、命令行工具（cli）<br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 暂时用不到，不清楚他的牛逼之处<br>
+      暂时用不到，不清楚他的牛逼之处<br>
 （4）、对不同构建版本的解释：这是不是很清楚，以后用的多了，可能会比较清楚<br>
        
 2、vue介绍
   ----------  
 
   1、vue.js是什么<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue是一套用于构建用户界面的渐进式框架<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue被被设计为可以自底向上逐层引用<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vue只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合
-  
+     Vue是一套用于构建用户界面的渐进式框架<br>
+     Vue被被设计为可以自底向上逐层引用<br>
+     Vue只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合
   2、起步<br>
-  
   3、声明与循环<br>
   4、处理用户输入<br>
   5、组件化应用构建<br>
@@ -43,17 +41,23 @@
   
 5、计算属性和侦听器
   --------
+  （1）计算属性
+       1、基础例子
+       2、计算属性缓存 VS 方法
+       3、计算属性 VS 侦听属性
+       4、计算属性的setter
+  （2）侦听器
 6、 class和Style绑定
   --------
-  条件渲染
+7、 条件渲染
   --------
-  列表渲染
+8、列表渲染
   --------
-  时间处理
+9、时间处理
   --------
-  表单输入绑定
+10、表单输入绑定
   --------
-  组件基础
+11、组件基础
   --------
 
       

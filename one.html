@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue-One</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+    <style>
+        .test:hover{
+            box-shadow: -2px -2px 2px #ccc;
+        }
+        .test{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ccc;
+        }
+        .tested{
+            width: 100px;
+            height: 100px;
+        }
+        .tested:hover{
+           box-shadow: 2px 2px 2px #ccc; 
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+    <div id="app-2">
+        <span v-bind:title="message">鼠标悬停几秒钟查看此处动态绑定的提示信息！</span>
+    </div>
+    <div id="app-3">
+        <p v-if="seen">现在你看到我了</p>
+    </div>
+    <div id="app-4">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+    <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click = "reverseMessage">逆转信息</button>
+    </div>
+    <div id="app-6">
+        <p> {{ message }}</p>
+        <input type="text" v-model="message">
+    </div>
+    <div id="app-7">
+        <ol>
+            <todo-item v-for="item in groceryList"
+                       v-bind:todo="item"
+                       v-bind:key="item.id">   
+            </todo-item>
+        </ol>
+        <ul>
+            <todo-item  v-for="item in aaa"
+                        v-bind:todo="item"
+                        v-bind:key="item.id">
+            </todo-item>
+        </ul>
+    </div>
+
+    <div id="app-8">
+        <p> Using mustaches: {{ rawHtml }}</p>
+        <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+    </div>
+
+    <div id="example">
+        <p>Original message : "{{ message }}"</p>
+        <p>Computed reversed message : "{{ reversedMessage }}"</p>
+    </div>
+
+    <div id="demo">{{ fullName }}</div>
+
+    <div id="watch-example">
+        <p>
+            Ask a yes/no question : 
+            <input type="text" v-model="question">
+        </p>
+        <p>{{ answer }}</p>
+    </div>
+    <div class="test">
+        <div class="tested"></div>
+    </div>
+    <script src="one.js"></script>
+</body>
+</html>
